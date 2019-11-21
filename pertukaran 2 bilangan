@@ -1,0 +1,26 @@
+#include <iostream>
+
+using namespace std;
+
+void tukar(int a, int b);
+
+void tukar(int a, int b) {
+    int c;
+    c=a;
+    a=b;
+    b=c;
+    cout << "bilangan 1 = " << a << " ,bilangan 2 = " << b << endl;
+}
+
+int main () {
+    int a,b;
+    
+    cout << " bil 1 = ";
+    cin >> a;
+    cout << "bil 2 = ";
+    cin >> b;
+    cout << "bilangan 1 = " << a << " ,bilangan 2 = " << b << endl;
+    
+    tukar(a,b);
+    return 0;
+}
