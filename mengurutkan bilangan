@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int bilangan[10];
+    int i;
+    
+    int main () {
+        for (i=0;i<10;i++) {
+            cin >> bilangan[i];
+        }
+        for (i=0;i<10;i++) {
+            cout << bilangan[i] << " ";
+        }
+        return 0;
+    }
